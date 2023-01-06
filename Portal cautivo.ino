@@ -27,6 +27,7 @@
         Serial.println("No se pudo establecer la conexión");
         
     } 
+    
     else {
         //si llegas aquí te has conectado al WiFi  
         Serial.println("Conexión exitosa :)");
