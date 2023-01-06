@@ -32,7 +32,6 @@ void setup() {
   touchAttachInterrupt(T6, gotTouch6, threshold);
   touchAttachInterrupt(T8, gotTouch8, threshold);
 }
-
 void loop() {
   if (touch4detected) {
     touch4detected = false;
